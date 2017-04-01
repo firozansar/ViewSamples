@@ -1,4 +1,4 @@
-package ws.wolfsoft.test4;
+package info.firozansari.viewsamples;
 
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;

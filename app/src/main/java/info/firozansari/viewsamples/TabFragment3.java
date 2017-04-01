@@ -1,4 +1,4 @@
-package ws.wolfsoft.test4;
+package info.firozansari.viewsamples;
 
 import android.graphics.Typeface;
 import android.os.Bundle;

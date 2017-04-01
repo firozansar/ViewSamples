@@ -1,4 +1,4 @@
-package ws.wolfsoft.test4;
+package info.firozansari.viewsamples;
 
 /**
  * Created by Rp on 3/30/2016.

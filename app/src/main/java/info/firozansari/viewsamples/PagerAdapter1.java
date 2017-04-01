@@ -1,4 +1,5 @@
-package ws.wolfsoft.test4;
+package info.firozansari.viewsamples;
+
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;

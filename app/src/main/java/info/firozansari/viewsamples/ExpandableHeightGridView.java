@@ -1,4 +1,4 @@
-package ws.wolfsoft.test4;
+package info.firozansari.viewsamples;
 
 import android.content.Context;
 import android.util.AttributeSet;

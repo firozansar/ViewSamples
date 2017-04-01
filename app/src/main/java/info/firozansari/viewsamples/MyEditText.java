@@ -1,4 +1,5 @@
-package customfonts;
+package info.firozansari.viewsamples;
+
 
 import android.content.Context;
 import android.graphics.Typeface;
