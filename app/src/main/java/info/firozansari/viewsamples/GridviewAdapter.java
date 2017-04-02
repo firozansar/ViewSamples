@@ -2,7 +2,6 @@ package info.firozansari.viewsamples;
 
 import android.app.Activity;
 import android.content.Context;
-import android.graphics.Typeface;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -58,10 +57,10 @@ public class GridviewAdapter extends BaseAdapter {
 
             viewHolder = new ViewHolder();
 
-            viewHolder.image1 = (ImageView) convertView.findViewById(R.id.image1);
-            viewHolder.title1 = (TextView) convertView.findViewById(R.id.title1);
-            viewHolder.discription1 = (TextView) convertView.findViewById(R.id.description1);
-            viewHolder.date1 = (TextView) convertView.findViewById(R.id.date1);
+            viewHolder.image1 = (ImageView) convertView.findViewById(R.id.image);
+            viewHolder.title1 = (TextView) convertView.findViewById(R.id.title);
+            viewHolder.discription1 = (TextView) convertView.findViewById(R.id.description);
+            viewHolder.date1 = (TextView) convertView.findViewById(R.id.date);
 
 
 //            viewHolder.title1.setTypeface(fonts2);
@@ -79,10 +78,10 @@ public class GridviewAdapter extends BaseAdapter {
 
         Beanclass bean = (Beanclass) getItem(position);
 
-        viewHolder.image1.setImageResource(bean.getImage1());
-        viewHolder.title1.setText(bean.getTitle1());
-        viewHolder.discription1.setText(bean.getDiscription1());
-        viewHolder.date1.setText(bean.getDate1());
+        viewHolder.image1.setImageResource(bean.getImage());
+        viewHolder.title1.setText(bean.getTitle());
+        viewHolder.discription1.setText(bean.getDiscription());
+        viewHolder.date1.setText(bean.getDate());
 
 
         return convertView;
