@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         ArrayList<Demo> demos = new ArrayList<>();
         demos.add(new Demo(this, CategoryActivity.class, R.string.ecommerce));
         demos.add(new Demo(this, CheckoutActivity.class, R.string.checkout));
-        //demos.add(new Demo(this, PathMorphActivity.class, R.string.smiling_face));
+        demos.add(new Demo(this, DashboardActivity.class, R.string.dashboard));
         //demos.add(new Demo(this, FillInHeartActivity.class, R.string.fill_in_heart));
         //demos.add(new Demo(this, PlayResetActivity.class, R.string.play_to_reset));
         //demos.add(new Demo(this, AnimatedIconActivity.class, R.string.animated_icon));
