@@ -296,7 +296,7 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
 
-                    <customfonts.MyEditText
+                    <info.firozansari.viewsamples.MyEditText
 
                         android:id="@+id/city2"
                         android:layout_width="match_parent"
