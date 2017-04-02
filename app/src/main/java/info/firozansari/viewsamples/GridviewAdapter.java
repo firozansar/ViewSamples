@@ -57,10 +57,10 @@ public class GridviewAdapter extends BaseAdapter {
 
             viewHolder = new ViewHolder();
 
-            viewHolder.image1 = (ImageView) convertView.findViewById(R.id.image);
-            viewHolder.title1 = (TextView) convertView.findViewById(R.id.title);
-            viewHolder.discription1 = (TextView) convertView.findViewById(R.id.description);
-            viewHolder.date1 = (TextView) convertView.findViewById(R.id.date);
+            viewHolder.image1 = (ImageView) convertView.findViewById(R.id.g_image);
+            viewHolder.title1 = (TextView) convertView.findViewById(R.id.g_title);
+            viewHolder.discription1 = (TextView) convertView.findViewById(R.id.g_desc);
+            viewHolder.date1 = (TextView) convertView.findViewById(R.id.g_date);
 
 
 //            viewHolder.title1.setTypeface(fonts2);

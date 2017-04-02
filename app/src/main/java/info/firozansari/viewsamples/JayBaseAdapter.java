@@ -63,12 +63,12 @@ public class JayBaseAdapter extends BaseAdapter {
 
             viewHolder = new ViewHolder();
 
-            viewHolder.image = (ImageView)convertView.findViewById(R.id.image);
-            viewHolder.title = (TextView)convertView.findViewById(R.id.title);
-            viewHolder.discription = (TextView)convertView.findViewById(R.id.description);
-            viewHolder.date = (TextView)convertView.findViewById(R.id.date);
+            viewHolder.image = (ImageView)convertView.findViewById(R.id.vs_image);
+            viewHolder.title = (TextView)convertView.findViewById(R.id.vs_title);
+            viewHolder.discription = (TextView)convertView.findViewById(R.id.vs_description);
+            viewHolder.date = (TextView)convertView.findViewById(R.id.vs_date);
 //            viewHolder.min = (ImageView)convertView.findViewById(R.id.min);
-            viewHolder.text = (TextView)convertView.findViewById(R.id.text);
+            viewHolder.text = (TextView)convertView.findViewById(R.id.vs_text);
 //            viewHolder.plus = (ImageView)convertView.findViewById(R.id.plus);
 
 
