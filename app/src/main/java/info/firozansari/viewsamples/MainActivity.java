@@ -1,65 +1,43 @@
 package info.firozansari.viewsamples;
 
-import android.support.design.widget.TabLayout;
-import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 
-import com.daimajia.slider.library.SliderTypes.BaseSliderView;
-import com.daimajia.slider.library.SliderTypes.TextSliderView;
+import java.util.ArrayList;
 
-import java.util.HashMap;
+/**
+ * Created by firoz on 02/04/2017.
+ */
 
-public class MainActivity extends AppCompatActivity implements BaseSliderView.OnSliderClickListener {
+public class MainActivity extends AppCompatActivity {
 
+    RecyclerView recyclerView;
+    CustomAdapter adapter;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //
+
+        ArrayList<Demo> demos = new ArrayList<>();
+        demos.add(new Demo(this, CategoryActivity.class, R.string.ecommerce));
+        /*demos.add(new Demo(this, RotateActivity.class, R.string.clock));
+        demos.add(new Demo(this, PathMorphActivity.class, R.string.smiling_face));
+        demos.add(new Demo(this, FillInHeartActivity.class, R.string.fill_in_heart));
+        demos.add(new Demo(this, PlayResetActivity.class, R.string.play_to_reset));
+        demos.add(new Demo(this, AnimatedIconActivity.class, R.string.animated_icon));
+        demos.add(new Demo(this, AnimatedMenuActivity.class, R.string.animated_menu));*/
 
 
-        TabLayout tabLayout = (TabLayout) findViewById(R.id.tab_layout);
-        tabLayout.addTab(tabLayout.newTab().setText("WATCHES"));
-        tabLayout.addTab(tabLayout.newTab().setText("VIEW ALL"));
-        tabLayout.addTab(tabLayout.newTab().setText("CHOTHES"));
-        tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
-
-        final ViewPager viewPager = (ViewPager) findViewById(R.id.pager);
-
-        PagerAdapter1 adapter = new PagerAdapter1(getSupportFragmentManager(), tabLayout.getTabCount());
-
-        viewPager.setAdapter(adapter);
-        viewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
-        tabLayout.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
-            @Override
-            public void onTabSelected(TabLayout.Tab tab) {
-                viewPager.setCurrentItem(tab.getPosition());
-            }
-
-            @Override
-            public void onTabUnselected(TabLayout.Tab tab) {
-
-            }
-
-            @Override
-            public void onTabReselected(TabLayout.Tab tab) {
-
-            }
-        });
-
-
+        recyclerView = (RecyclerView) findViewById(R.id.recycleView);
+        adapter = new CustomAdapter(this, demos);
+        recyclerView.setAdapter(adapter);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this)); // Vertical Orientation By Default
 
     }
-
-    @Override
-    public void onSliderClick(BaseSliderView slider) {
-
-    }
-
 
 
 }
-
