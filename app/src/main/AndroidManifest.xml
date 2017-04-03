@@ -38,6 +38,10 @@
             android:name=".DashboardActivity"
             android:label="@string/dashboard"
             android:screenOrientation="portrait"/>
+        <activity
+            android:name=".FilterActivity"
+            android:label="@string/dashboard"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>
