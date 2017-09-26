@@ -44,7 +44,7 @@
 
 
 
-                <info.firozansari.viewsamples.MyTextView
+                <info.firozansari.viewsamples.helper.MyTextView
 
                     android:id="@+id/size"
                     android:layout_weight="1"
@@ -64,7 +64,7 @@
                     android:layout_height="wrap_content"
                     >
 
-                    <info.firozansari.viewsamples.MyTextView
+                    <info.firozansari.viewsamples.helper.MyTextView
                         android:id="@+id/ss"
                         android:layout_width="34dp"
                         android:layout_height="34dp"
@@ -76,7 +76,7 @@
                         android:textColor="@color/colorTex"
 
                         />
-                    <info.firozansari.viewsamples.MyTextView
+                    <info.firozansari.viewsamples.helper.MyTextView
                         android:id="@+id/m"
 
                         android:layout_width="34dp"
@@ -89,7 +89,7 @@
                         android:textColor="@color/colorTex"
 
                         />
-                    <info.firozansari.viewsamples.MyTextView
+                    <info.firozansari.viewsamples.helper.MyTextView
                         android:id="@+id/l"
 
                         android:layout_width="34dp"
@@ -102,7 +102,7 @@
                         android:textColor="@color/colorTex"
 
                         />
-                    <info.firozansari.viewsamples.MyTextView
+                    <info.firozansari.viewsamples.helper.MyTextView
                         android:id="@+id/xl"
 
                         android:layout_width="34dp"
@@ -116,7 +116,7 @@
 
                         />
 
-                    <info.firozansari.viewsamples.MyTextView
+                    <info.firozansari.viewsamples.helper.MyTextView
                         android:id="@+id/xxl"
 
                         android:layout_width="34dp"
@@ -145,7 +145,7 @@
 
 
 
-                <info.firozansari.viewsamples.MyTextView
+                <info.firozansari.viewsamples.helper.MyTextView
 
                     android:id="@+id/color"
                     android:layout_weight="1"
@@ -213,7 +213,7 @@
 
 
 
-            <info.firozansari.viewsamples.RangeBar
+            <info.firozansari.viewsamples.helper.RangeBar
                 xmlns:custom="http://schemas.android.com/apk/res-auto"
                 android:id="@+id/rangebar1"
                 android:layout_width="match_parent"
@@ -281,7 +281,7 @@
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
                 >
-                <info.firozansari.viewsamples.MyTextView
+                <info.firozansari.viewsamples.helper.MyTextView
                     android:padding="16dp"
                     android:id="@+id/kid"
                     android:layout_weight="1"
@@ -352,7 +352,7 @@
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
                 >
-                <info.firozansari.viewsamples.MyTextView
+                <info.firozansari.viewsamples.helper.MyTextView
                     android:padding="16dp"
                     android:id="@+id/man"
                     android:layout_weight="1"
@@ -422,7 +422,7 @@
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
                 >
-                <info.firozansari.viewsamples.MyTextView
+                <info.firozansari.viewsamples.helper.MyTextView
                     android:padding="16dp"
                     android:id="@+id/woman"
                     android:layout_weight="1"
@@ -492,7 +492,7 @@
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
                 >
-                <info.firozansari.viewsamples.MyTextView
+                <info.firozansari.viewsamples.helper.MyTextView
                     android:padding="16dp"
                     android:id="@+id/all"
                     android:layout_weight="1"

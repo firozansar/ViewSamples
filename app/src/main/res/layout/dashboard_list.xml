@@ -28,7 +28,7 @@
 
 
 
-            <info.firozansari.viewsamples.MyTextView
+            <info.firozansari.viewsamples.helper.MyTextView
                 android:id="@+id/title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -38,7 +38,7 @@
                 android:textColor="#fff"
                 />
 
-            <info.firozansari.viewsamples.MyTextView
+            <info.firozansari.viewsamples.helper.MyTextView
                 android:id="@+id/subtitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -51,7 +51,7 @@
 
 
 
-            <info.firozansari.viewsamples.MyTextView
+            <info.firozansari.viewsamples.helper.MyTextView
                 android:id="@+id/shop"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

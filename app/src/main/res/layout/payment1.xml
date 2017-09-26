@@ -34,7 +34,7 @@
              android:layout_width="match_parent"
              android:layout_height="wrap_content">
 
-        <info.firozansari.viewsamples.MyTextView
+        <info.firozansari.viewsamples.helper.MyTextView
 
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

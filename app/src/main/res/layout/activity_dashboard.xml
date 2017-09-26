@@ -26,7 +26,7 @@
                 >
 
 
-                <info.firozansari.viewsamples.SliderLayout
+                <info.firozansari.viewsamples.helper.SliderLayout
                     android:id="@+id/slider"
                     android:layout_width="match_parent"
                     custom:pager_animation_span="1100"
@@ -37,13 +37,13 @@
 
 
 
-                <info.firozansari.viewsamples.ExpandableHeightListView
+                <info.firozansari.viewsamples.helper.ExpandableHeightListView
                     android:id="@+id/list"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
 
-                </info.firozansari.viewsamples.ExpandableHeightListView>
+                </info.firozansari.viewsamples.helper.ExpandableHeightListView>
 
             </LinearLayout>
             <include

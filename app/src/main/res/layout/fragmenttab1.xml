@@ -18,7 +18,7 @@
        >
 
 
-       <info.firozansari.viewsamples.ExpandableHeightGridView
+       <info.firozansari.viewsamples.helper.ExpandableHeightGridView
            android:layout_height="wrap_content"
            android:layout_width="match_parent"
            android:verticalSpacing="1dp"

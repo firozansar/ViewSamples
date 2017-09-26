@@ -38,7 +38,7 @@
             android:orientation="vertical"
             >
 
-            <info.firozansari.viewsamples.MyTextView
+            <info.firozansari.viewsamples.helper.MyTextView
 
                 android:id="@+id/g_title"
                 android:maxLines="2"
@@ -52,7 +52,7 @@
                 />
 
 
-            <info.firozansari.viewsamples.MyTextView
+            <info.firozansari.viewsamples.helper.MyTextView
                 android:id="@+id/g_desc"
                 android:textSize="15dp"
                 android:layout_width="wrap_content"
@@ -63,7 +63,7 @@
 
                 />
 
-            <info.firozansari.viewsamples.MyTextView
+            <info.firozansari.viewsamples.helper.MyTextView
                 android:id="@+id/g_date"
                 android:textSize="13dp"
                 android:layout_width="wrap_content"
